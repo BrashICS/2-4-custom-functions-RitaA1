@@ -93,6 +93,7 @@ function born_in() {
 }
 
 function roll_d6() {
-    console.log(Math.floor(Math.random()*6 + 1))
-
+    let number = Math.floor(Math.random()*6 + 1)
+    console.log(number)
+    let roll = alert(`you rolled a ${number}`)  
 }
